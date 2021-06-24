@@ -4,6 +4,7 @@ import { Col, Row, Container } from 'react-bootstrap'
 import SideBar from '../components/SideBar/SideBar'
 import About from '../components/About/About'
 import Education from '../components/Education/Education'
+import Skills from '../components/Skills/Skills'
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
                         <Switch>
                             <Route path="/" exact component={About} />
                             <Route path="/education" exact component={Education} />
+                            <Route path="/skills" exact component={Skills} />
                         </Switch>
                     </Router>
                 </Col>
