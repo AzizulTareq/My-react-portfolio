@@ -10,14 +10,14 @@ const About = () => {
      <br />
      
      <Row>
-       <Col md={4}>
+       <Col md={6}>
        <h2>About Me</h2>
-       I'm Tareq, a software engineer.
+       A passionate, forward thinking and solution oriented full-stack software Engineer who is looking forward to grow career by experiencing industry challenges.
         <div>
         <Button variant="outline-info">Download Resume</Button>{' '}
         </div>
        </Col>
-       <Col md={4}>
+       <Col md={6}>
        <Image src={myphoto} alt={myphoto} fluid />
        </Col>
      </Row>

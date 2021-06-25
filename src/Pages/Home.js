@@ -5,6 +5,7 @@ import SideBar from '../components/SideBar/SideBar'
 import About from '../components/About/About'
 import Education from '../components/Education/Education'
 import Skills from '../components/Skills/Skills'
+import Projects from '../components/Projects/Projects'
 
 const Home = () => {
     return (
@@ -19,6 +20,7 @@ const Home = () => {
                             <Route path="/" exact component={About} />
                             <Route path="/education" exact component={Education} />
                             <Route path="/skills" exact component={Skills} />
+                            <Route path="/projects" exact component={Projects} />
                         </Switch>
                     </Router>
                 </Col>
