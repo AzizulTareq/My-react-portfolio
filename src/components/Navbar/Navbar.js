@@ -3,7 +3,7 @@ import { Nav, Navbar,Container} from 'react-bootstrap'
 
 const NavBar = () => {
     return (
-      <div>
+      <div style={{textAlign: 'center'}}>
       <Navbar bg="light" expand="lg">
       <Navbar.Brand href="/"><span style={{fontWeight: 'bolder'}}>TAR<span style={{color: '#AF255D '}}>EQ</span></span></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -13,6 +13,7 @@ const NavBar = () => {
           <Nav.Link href="/education">Experience & Education</Nav.Link>
           <Nav.Link href="/skills">Skills</Nav.Link>
           <Nav.Link href="/projects">Projects</Nav.Link>
+          <Nav.Link href="/publications">Publications</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
