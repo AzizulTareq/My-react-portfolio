@@ -14,6 +14,7 @@ const About = () => {
        <h2>About Me</h2>
        A passionate, forward thinking and solution oriented full-stack software Engineer who is looking forward to grow career by experiencing industry challenges.
         <div>
+          <br />
         <Button variant="outline-info">Download Resume</Button>{' '}
         </div>
        </Col>

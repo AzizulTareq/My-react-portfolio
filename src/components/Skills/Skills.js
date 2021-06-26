@@ -9,7 +9,7 @@ const Skills = () => {
             <br />
             <h5><AiTwotoneSetting /> Skills</h5>
             <ul>
-                <h6><strong>Programming Language/Framework/Library/Database:</strong></h6>
+                <h6><strong>Programming Language/ Framework/ Database:</strong></h6>
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>Javascript</li>

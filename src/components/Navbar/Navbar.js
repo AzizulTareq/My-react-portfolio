@@ -3,7 +3,7 @@ import { Nav, Navbar,Container} from 'react-bootstrap'
 
 const NavBar = () => {
     return (
-      <div style={{textAlign: 'center'}}>
+      <div>
       <Navbar bg="light" expand="lg">
       <Navbar.Brand href="/"><span style={{fontWeight: 'bolder'}}>TAR<span style={{color: '#AF255D '}}>EQ</span></span></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
