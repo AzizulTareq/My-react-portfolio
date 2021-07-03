@@ -1,19 +1,33 @@
 import React from 'react'
 import { Nav, Navbar,Container} from 'react-bootstrap'
+import { LinkContainer } from 'react-router-bootstrap'
 
 const NavBar = () => {
     return (
       <div>
       <Navbar bg="light" expand="lg">
-      <Navbar.Brand href="/"><span style={{fontWeight: 'bolder'}}>TAR<span style={{color: '#AF255D '}}>EQ</span></span></Navbar.Brand>
+      <LinkContainer to='/'>
+      <Navbar.Brand><span style={{fontWeight: 'bolder'}}>TAR<span style={{color: '#AF255D '}}>EQ</span></span></Navbar.Brand>
+      </LinkContainer>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="/">About</Nav.Link>
-          <Nav.Link href="/education">Experience & Education</Nav.Link>
-          <Nav.Link href="/skills">Skills</Nav.Link>
-          <Nav.Link href="/projects">Projects</Nav.Link>
-          <Nav.Link href="/publications">Publications</Nav.Link>
+        <LinkContainer to='/'>
+          <Nav.Link>About</Nav.Link>
+          </LinkContainer>
+          <LinkContainer to='/education'>
+          <Nav.Link >Experience & Education</Nav.Link>
+          </LinkContainer>
+          <LinkContainer to='/skills'>
+          <Nav.Link>Skills</Nav.Link>
+          </LinkContainer>
+          <LinkContainer to='/projects'>
+          <Nav.Link>Projects</Nav.Link>
+          </LinkContainer>
+          <LinkContainer to='/publications'>
+          <Nav.Link>Publications</Nav.Link>
+          </LinkContainer>
+          
         </Nav>
       </Navbar.Collapse>
     </Navbar>
