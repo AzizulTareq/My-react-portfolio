@@ -1,7 +1,7 @@
 import React from 'react'
-import { Card, CardGroup, Container, Row, Col } from 'react-bootstrap'
+import { Card, CardGroup, Container, Row, Col, ButtonGroup, Button } from 'react-bootstrap'
 import project1 from './project1.PNG'
-import { AiTwotoneHeart } from 'react-icons/ai'
+import { AiTwotoneHeart, AiTwotoneTag } from 'react-icons/ai'
 
 const Projects = () => {
     return (
@@ -12,18 +12,53 @@ const Projects = () => {
       <Card>
         <Row>
           <Col md={6}>
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
+        <Card.Body style={{position: 'relative'}}>
+          <Card.Title>BD CARs</Card.Title>
           <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in to
-            additional content. This card has even longer content than the first to
-            show that equal height action.
+          The Car Land is a place for people who want to buy a car or sell his car. Anyone can upload a car with photos and details to sell his car, user must need to sign up and log in to sell his car.
+          <br />
+          <AiTwotoneTag/> Stack: Javascript, React, React Bootstrap, Nodejs, Mongodb etc.
+
           </Card.Text>
+          
+          <div style={{position: 'absolute', buttom:'0px'}}>
+          <Button variant="danger" href="http://www.youtube.com" target="__blank">VIDEO</Button> &nbsp;
+          <Button variant="light">CODE</Button>
+          </div>
+
         </Card.Body>
         </Col>
 
         <Col md={6}>
-        <Card.Img style={{padding: '20px'}} variant="top" src={project1} />
+        <Card.Img style={{padding: '20px', paddingTop: '35px'}} variant="top" src={project1} />
+        </Col>
+        </Row>
+      </Card>
+    </CardGroup>
+      <br />
+    <CardGroup>
+      <Card>
+        <Row>
+          <Col md={6}>
+        <Card.Body style={{position: 'relative'}}>
+          <Card.Title>T-shirt Ecommere</Card.Title>
+          <Card.Text>
+          Features – redux shopping cart, rating & comments by customers, product page, admin dashboard, payment system, admin dashboard etc.
+          <br />
+          <AiTwotoneTag/> Stack: Javascript, React, React Bootstrap, Nodejs, Mongodb etc.
+
+          </Card.Text>
+          
+          <div style={{position: 'absolute', buttom:'0px'}}>
+          <Button variant="danger" href="http://www.youtube.com" target="__blank">VIDEO</Button> &nbsp;
+          <Button variant="light">CODE</Button>
+          </div>
+
+        </Card.Body>
+        </Col>
+
+        <Col md={6}>
+        <Card.Img style={{padding: '20px', paddingTop: '35px'}} variant="top" src={project1} />
         </Col>
         </Row>
       </Card>
