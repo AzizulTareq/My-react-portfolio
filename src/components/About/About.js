@@ -11,7 +11,8 @@ const About = () => {
      
      <Row>
        <Col md={6}>
-       <h2>About Me</h2>
+       <h2>About Me:</h2>
+       Hi, I'm Azizul Hakim Tareq. Nice to meet you.
        A passionate, forward thinking and solution oriented full-stack software Engineer who is looking forward to grow career by experiencing industry challenges.
         <div>
           <br />
