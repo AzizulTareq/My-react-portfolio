@@ -9,7 +9,7 @@ const Publications = () => {
             <h5><IoIosPaper /> Conference Papers</h5>
             <ul>
                 <li style={{textAlign: 'justify'}}>
-                G. K. Anik, <strong>A. H. Tareq</strong>, M. A. Haque Abir, M. H. Islam and M. M. Khan, <strong>"Development of Web Based Tour Package System"</strong>, 2021 IEEE World AI IoT Congress(AIIoT), 2021, pp. 0313-0317 <br /> DOI: <a target="blank" href="https://doi.org/10.1109/AIIoT52608.2021.9454226">https://doi.org/10.1109/AIIoT52608.2021.9454226</a>
+                G. K. Anik, <strong>A. H. Tareq</strong>, M. A. Haque Abir, M. H. Islam and M. M. Khan, <strong>"Development of Web Based Tour Package System"</strong>, 2021 IEEE World AI IoT Congress(AIIoT), 2021, pp. 0313-0317 <br /> DOI: <a style={{textDecoration: 'none'}} target="blank" href="https://doi.org/10.1109/AIIoT52608.2021.9454226"><span style={{color: '#08B9CD', fontWeight: 'bold'}}>https:// doi.org/ 10.1109/ AIIoT52608.2021.9454226</span></a>
                 </li>
                 <br />
                 <li style={{textAlign: 'justify'}}>

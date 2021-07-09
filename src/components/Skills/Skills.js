@@ -20,7 +20,7 @@ const Skills = () => {
                 <li>Bootstrap, React Bootstrap, Reactstrap</li>
                 <br />
                 <h6><strong>Tools & Others:</strong></h6>
-                <li>Git</li>
+                <li>Git, Github</li>
                 <li>Heroku</li>
                 <li>Netlify</li>
                 <li>Postman etc.</li>
@@ -28,8 +28,8 @@ const Skills = () => {
             <h5><GiThink /> Competitive Programming/Problem Solving</h5>
             <ul>
                 <li>Solved about 400 problems from different online judges.</li>
-                <li>Stopstalk username: <a href="https://www.stopstalk.com/user/profile/azizultareq">azizultareq</a></li>
-                <li>Codeforces handle : <a href="https://codeforces.com/profile/event_loop">event_loop</a></li>
+                <li>Stopstalk username: <a style={{textDecoration: 'none'}} href="https://www.stopstalk.com/user/profile/azizultareq"><span style={{color: '#08B9CD', fontWeight: 'bold'}}>azizultareq</span></a></li>
+                <li>Codeforces handle : <a style={{textDecoration: 'none'}} href="https://codeforces.com/profile/event_loop"><span style={{color: '#08B9CD', fontWeight: 'bold'}}>event_loop</span></a></li>
             </ul>
             
         </Container>

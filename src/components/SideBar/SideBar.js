@@ -21,8 +21,8 @@ const SideBar = () => (
       <Image style={{height: '130px', width: '130px'}} src={myphoto} roundedCircle />
       <header>
         <br />
-        <h4 className="sidebar_name">AZIZUL HAKIM TAREQ</h4>
-        <p>A Full-stack Software Engineer <br /> <GoLocation /> Dhaka, Bangladesh <br/> <div style={{paddingTop: '12px'}}><a href={resume} download><Button variant="outline-secondary">Download Resume</Button>{' '}</a></div></p>
+        <h5 className="sidebar_name">AZIZUL HAKIM TAREQ</h5>
+        <p>A Full-stack Software Engineer <br /> <GoLocation /> Dhaka, Bangladesh <br/> <div style={{paddingTop: '12px'}}><a href={resume} download><Button variant="outline-dark">Download Resume</Button>{' '}</a></div></p>
       </header>
       </div>
       <br />
@@ -30,7 +30,7 @@ const SideBar = () => (
 
     <section className="blurb">
       <p>
-      <a className="all_links" href = "mailto: azizul.tareq@northsouth.edu" target="__blank"><MdEmail /> Email</a> <br />
+      <a className="all_links" href = "mailto: azizultareq7@gmail.com" target="__blank"><MdEmail /> Email</a> <br />
       <a className="all_links" href="https://github.com/AzizulTareq" target="__blank"><AiFillGithub /> Github</a> <br />
       <a className="all_links" href="https://www.linkedin.com/in/azizultareq/" target="__blank"><AiFillLinkedin /> Linkedin</a> <br />
       <a className="all_links"  href="https://www.flickr.com/photos/193326444@N02/" target="__blank"><ImFlickr /> Flickr</a>
