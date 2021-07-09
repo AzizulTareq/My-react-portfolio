@@ -2,7 +2,7 @@ import React from 'react'
 import { Row, Col, Container, Image, Button } from 'react-bootstrap'
 import myphoto from './myphoto.jpg'
 import './About.css'
-import resume from './resume of Tareq.pdf'
+
 
 const About = () => {
   return (
@@ -17,10 +17,7 @@ const About = () => {
        I'm a passionate, forward-thinking, and solution-oriented full-stack Software Engineer. I'm looking forward to growing my career by experiencing industry challenges. <br /> <br />
        I've worked as a frontend developer in a startup for few months where I was responsible for building the frontend of a multi-users and multi-sellers e-commerce site.<br /> <br />
        I've completed my B.Sc in Computer Science & Engineering from North South University. During my university time, I always focused on developing skills and building projects. I believe software engineering is full of challenges, and to overcome those challenges one need to have passion in coding, ability to research, and solve problems. I enjoy writing code, solving problems by using google, stackoverflow, and learning new things. Besides software development I've solved about 400 coding problems from codeforces and other online judges. I learned a lot of technologies but tried to be a master in MERN stack development.</p>
-        <div>
-        <a href={resume} download><Button variant="outline-info">Download Resume</Button>{' '}</a>
-
-        </div>
+     
        </Col>
        <Col md={5}>
          <br />

@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Image, Container } from 'react-bootstrap'
+import { Image, Container, Button } from 'react-bootstrap'
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
 import { MdEmail } from 'react-icons/md'
 import { GoLocation } from 'react-icons/go'
 import { ImFlickr } from 'react-icons/im'
 import myphoto from './myphoto.PNG'
 import './SideBar.css'
+import resume from './resume of Tareq.pdf'
 
 const SideBar = () => (
   <Container id="sidebar" style={{backgroundColor: 'rgb(240, 238, 238)', height: '650px'}}>
@@ -21,7 +22,7 @@ const SideBar = () => (
       <header>
         <br />
         <h4 className="sidebar_name">AZIZUL HAKIM TAREQ</h4>
-        <p>A Full-stack Software Engineer <br /><GoLocation /> Dhaka, Bangladesh</p>
+        <p>A Full-stack Software Engineer <br /> <GoLocation /> Dhaka, Bangladesh <br/> <div style={{paddingTop: '12px'}}><a href={resume} download><Button variant="outline-secondary">Download Resume</Button>{' '}</a></div></p>
       </header>
       </div>
       <br />
