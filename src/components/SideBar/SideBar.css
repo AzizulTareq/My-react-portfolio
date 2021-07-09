@@ -1,5 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@300&family=Tourney:ital,wght@0,300;1,200&display=swap');
 
-h2 {
-    font-family: 'Jomhuria', cursive;
+.sidebar_name {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Tourney', cursive;
+}
+
+.all_links {
+    text-decoration: none;
+    color: gray;
+}
+
+.all_links:hover {
+    color: 'red'
 }

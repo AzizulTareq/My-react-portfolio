@@ -12,7 +12,7 @@ const Education = () => {
             <li>
                 <p> <strong>Frontend Developer (Contract)</strong>
                 <br />Prodealz
-                <br />January 2021 to March 2021
+                <br />December 2020 to February 2021
                 <br />Dhaka, Bangladesh</p>
                 </li>
 
