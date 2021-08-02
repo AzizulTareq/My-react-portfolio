@@ -6,7 +6,7 @@ import './Education.css'
 
 const Education = () => {
     return (
-        <Container>
+        <Container className='my-3 px-6' style={{backgroundColor: 'white'}}>
             <h3><BsFillBriefcaseFill/> Experience</h3>
             <ul>
             <li>
@@ -40,7 +40,8 @@ const Education = () => {
                 <br />Chattogram, Bangladesh</p>
                 </li>
             </ul>
-            
+            <br />
+            <br />
         </Container>
     )
 }

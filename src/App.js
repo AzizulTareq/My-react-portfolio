@@ -17,9 +17,6 @@ const App = () => {
     <Navbar />
     <Container>
     <Row>
-        <Col md={3}>
-            <SideBar />
-              </Col>
                 <Col md={9}>
                             <Route path="/" exact component={About} />
                             <Route path="/education" exact component={Education} />
@@ -27,6 +24,9 @@ const App = () => {
                             <Route path="/projects" exact component={Projects} />
                             <Route path="/publications" exact component={Publications} />
                 </Col>
+                <Col md={3}>
+            <SideBar />
+              </Col>
             </Row>
             </Container>
     </Router>

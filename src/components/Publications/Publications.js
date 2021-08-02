@@ -4,7 +4,7 @@ import { IoIosPaper } from 'react-icons/io'
 
 const Publications = () => {
     return (
-        <Container>
+        <Container className='my-3 px-6' style={{backgroundColor: 'white'}}>
             <br />
             <h5><IoIosPaper /> Conference Papers</h5>
             <ul>
@@ -16,6 +16,8 @@ const Publications = () => {
                 <strong>A. H. Tareq</strong>, M.A.Abir, G.K. Anik , M.Ariful K., Dr. Rashedur Rahman, <strong>"Skin Diseases Classification Using Machine Learning and Deep Learning"</strong> In IWANN 2021: International Work Conference on Artificial Neural Networks – <strong>ACCEPTED</strong> (will be live by September, 2021).
                 </li>
             </ul> 
+            <br />
+            <br />
         </Container>
     )
 }

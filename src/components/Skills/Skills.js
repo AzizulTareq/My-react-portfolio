@@ -5,7 +5,7 @@ import { GiThink } from 'react-icons/gi'
 
 const Skills = () => {
     return (
-        <Container>
+        <Container className='my-3 px-6' style={{backgroundColor: 'white'}}>
             <br />
             <h5><AiTwotoneSetting /> Skills</h5>
             <ul>
@@ -31,7 +31,8 @@ const Skills = () => {
                 <li>Stopstalk username: <a style={{textDecoration: 'none'}} href="https://www.stopstalk.com/user/profile/azizultareq"><span style={{color: '#08B9CD', fontWeight: 'bold'}}>azizultareq</span></a></li>
                 <li>Codeforces handle : <a style={{textDecoration: 'none'}} href="https://codeforces.com/profile/event_loop"><span style={{color: '#08B9CD', fontWeight: 'bold'}}>event_loop</span></a></li>
             </ul>
-            
+            <br />
+            <br />
         </Container>
     )
 }
