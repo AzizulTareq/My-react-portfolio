@@ -12,6 +12,7 @@ const Education = () => {
             <li>
                 <p> <strong>Frontend Developer (Contract)</strong>
                 <br />Prodealz
+                <br /> - Built the frontend of a multi-user and multi-seller e-commerce site. Features I added: add to cart, sellers profile & dashboard, product page (carousel & other details).
                 <br />December 2020 to February 2021
                 <br />Dhaka, Bangladesh</p>
                 </li>

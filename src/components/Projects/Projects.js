@@ -1,18 +1,74 @@
 import React from 'react'
 import { Card, CardGroup, Container, Row, Col, ButtonGroup, Button } from 'react-bootstrap'
-import project1 from './project1.PNG'
-import project2 from './project2.PNG'
-import project3 from './project3.PNG'
-import project4 from './project4.PNG'
+import project1 from './images/project1.PNG'
+import project2 from './images/project2.PNG'
+import project3 from './images/project3.PNG'
+import project4 from './images/project4.PNG'
+import project5 from './images/project5.PNG'
 import { AiTwotoneHeart, AiTwotoneTag } from 'react-icons/ai'
+import { BsDot } from 'react-icons/bs'
 
 const Projects = () => {
     return (
       <Container>
           <br />
         <h5 style={{paddingBottom: '10px'}}>Projects <AiTwotoneHeart style={{color: '#D22633'}} /></h5> 
-      {/***************project 1***********/}
+        {/***************project 1***********/}
       <CardGroup style={{maxHeight: '100%'}}>
+      <Card>
+        <Row>
+          <Col md={6}>
+        <Card.Body style={{position: 'relative'}}>
+        <Card.Title>Place Review</Card.Title>
+          <Card.Text style={{textAlign: 'justify'}}>
+          User can select any plaec from the map and can give review and rating about that place, user need to register and signin to be able to do this. Users data and places data are stored in mongoDB.
+          <br />
+          <AiTwotoneTag/> Stack: React, Nodejs, Mongodb, React Bootstrap, HTML, CSS etc.
+          <br />
+          <br />
+          <div>
+          <Button variant="danger" href="https://www.youtube.com/watch?v=qY2zSlf3vGs&t=1s" target="__blank">VIDEO</Button> &nbsp;
+          <Button variant="dark" href="https://github.com/AzizulTareq/Place-Review" target="__blank">CODE</Button>
+          </div>
+          </Card.Text>
+        </Card.Body>
+        </Col>
+
+        <Col md={6}>
+        <Card.Img style={{padding: '20px', paddingTop: '35px'}} variant="top" src={project5} />
+        </Col>
+        </Row>
+      </Card>
+    </CardGroup>
+      
+      {/***************project 2***********/}
+    <CardGroup style={{maxHeight: '100%'}}>
+      <Card style={{maxHeight: '100%'}}>
+        <Row>
+          <Col md={6}>
+        <Card.Body style={{position: 'relative'}}>
+        <Card.Title>Ecommere Site</Card.Title>
+          <Card.Text style={{textAlign: 'justify'}}>
+          Features – shopping cart, user rating and comment, product page, quantity select, user profile page, payment system. Admin can add, edit, delete products, delete user, make a user as admin, check orders, and mark orders as delivered.<strong style={{fontSize: '14px'}}> [Feel free to email me to get access as admin]</strong> 
+          <br />
+          <AiTwotoneTag/> Stack: Javascript, React, React Bootstrap, Nodejs, Mongodb, HTML, CSS etc.
+          <br />
+          <br />
+          <div>
+          <Button variant="danger" href="https://tareqtboss.herokuapp.com/" target="__blank">LIVE</Button> &nbsp;
+          <Button variant="dark" href="https://github.com/AzizulTareq/e-commerce" target="__blank">CODE</Button>
+          </div>
+          </Card.Text>
+        </Card.Body>
+        </Col>
+        <Col md={6}>
+        <Card.Img style={{padding: '20px', paddingTop: '35px'}} variant="top" src={project2} />
+        </Col>
+        </Row>
+      </Card>
+    </CardGroup>
+    {/***************project 3***********/}
+    <CardGroup style={{maxHeight: '100%'}}>
       <Card>
         <Row>
           <Col md={6}>
@@ -26,7 +82,7 @@ const Projects = () => {
           <br />
           <div>
           <Button variant="danger" href="https://www.youtube.com/watch?v=9DnZomH0HfA&t=1s" target="__blank">VIDEO</Button> &nbsp;
-          <Button variant="light" href="https://github.com/AzizulTareq/BD-CARs" target="__blank">CODE</Button>
+          <Button variant="dark" href="https://github.com/AzizulTareq/BD-CARs" target="__blank">CODE</Button>
           </div>
           </Card.Text>
         </Card.Body>
@@ -38,35 +94,7 @@ const Projects = () => {
         </Row>
       </Card>
     </CardGroup>
-      <br />
-      {/***************project 2***********/}
-    <CardGroup style={{maxHeight: '100%'}}>
-      <Card style={{maxHeight: '100%'}}>
-        <Row>
-          <Col md={6}>
-        <Card.Body style={{position: 'relative'}}>
-          <Card.Title>Tshirt Ecommere Site</Card.Title>
-          <Card.Text style={{textAlign: 'justify'}}>
-          Features – shopping cart, user rating and comment, product page, quantity select, user profile page, payment system. Admin can add, edit, delete products, delete user, make a user as admin, check orders, and mark orders as delivered.<strong style={{fontSize: '14px'}}> [Feel free to email me to get access as admin]</strong> 
-          <br />
-          <AiTwotoneTag/> Stack: Javascript, React, React Bootstrap, Nodejs, Mongodb, HTML, CSS etc.
-          <br />
-          <br />
-          <div>
-          <Button variant="danger" href="https://tareqtboss.herokuapp.com/" target="__blank">LIVE</Button> &nbsp;
-          <Button variant="light" href="https://github.com/AzizulTareq/e-commerce" target="__blank">CODE</Button>
-          </div>
-          </Card.Text>
-        </Card.Body>
-        </Col>
-        <Col md={6}>
-        <Card.Img style={{padding: '20px', paddingTop: '35px'}} variant="top" src={project2} />
-        </Col>
-        </Row>
-      </Card>
-    </CardGroup>
-      {/***************project 3***********/}
-    <br />
+      {/***************project 4***********/}
     <CardGroup style={{maxHeight: '100%'}}>
       <Card style={{maxHeight: '100%'}}>
         <Row>
@@ -81,7 +109,7 @@ const Projects = () => {
           <br />
           <div>
           <Button variant="danger" href="https://azizultareq.netlify.app/" target="__blank">LIVE</Button> &nbsp;
-          <Button variant="light" href="https://github.com/AzizulTareq/My-react-portfolio" target="__blank">CODE</Button>
+          <Button variant="dark" href="https://github.com/AzizulTareq/My-react-portfolio" target="__blank">CODE</Button>
           </div>
           </Card.Text>
         </Card.Body>
@@ -93,8 +121,7 @@ const Projects = () => {
       </Card>
     </CardGroup>
 
-      {/***************project 4***********/}
-      <br />
+      {/***************project 5***********/}
     <CardGroup style={{maxHeight: '100%'}}>
       <Card style={{maxHeight: '100%'}}>
         <Row>
@@ -110,7 +137,7 @@ const Projects = () => {
           <br />
           <div>
           <Button variant="danger" href="https://covid19-tareq.herokuapp.com/" target="__blank">LIVE</Button> &nbsp;
-          <Button variant="light" href="https://github.com/AzizulTareq/Covid-19-Data-Tracker-React" target="__blank">CODE</Button>
+          <Button variant="dark" href="https://github.com/AzizulTareq/Covid-19-Data-Tracker-React" target="__blank">CODE</Button>
           </div>
           </Card.Text>
         </Card.Body>
