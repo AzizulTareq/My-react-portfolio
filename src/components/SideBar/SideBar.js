@@ -7,7 +7,7 @@ import { ImFlickr } from 'react-icons/im'
 import myphoto from './myphoto.PNG'
 import axios from 'axios'
 import './SideBar.css'
-import resume from './resume of Tareq.pdf'
+import resume from './myresume.pdf'
 
 const SideBar = () => {
 

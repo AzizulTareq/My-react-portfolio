@@ -1,5 +1,5 @@
 import React from 'react'
-import { Row, Col, Container, Image, Button } from 'react-bootstrap'
+import { Row, Col, Container, Image } from 'react-bootstrap'
 import myphoto from './myphoto.jpg'
 import './About.css'
 

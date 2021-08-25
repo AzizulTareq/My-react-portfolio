@@ -13,8 +13,8 @@ const Education = () => {
                 <p> <strong>Frontend Developer (Contract)</strong>
                 <br />Prodealz
                 <br /> - Built the frontend of a multi-user and multi-seller e-commerce site. Features I added: add to cart, sellers profile & dashboard, product page (carousel & other details).
-                <br />December 2020 to February 2021
-                <br />Dhaka, Bangladesh</p>
+                <br /><span className="date-place">December 2020 - February 2021</span>
+                <br /><span className="date-place">Dhaka, Bangladesh</span></p>
                 </li>
 
             </ul>
@@ -23,22 +23,22 @@ const Education = () => {
                 <li>
                 <p> <strong>North South University</strong>
                 <br />B.Sc in Computer Science & Engineering
-                <br />January 2017 to May 2021
-                <br />Dhaka, Bangladesh</p>
+                <br /><span className="date-place">January 2017 - May 2021</span>
+                <br /><span className="date-place">Dhaka, Bangladesh</span></p>
                 </li>
 
                 <li>
                 <p> <strong>Govt. City College</strong>
                 <br />Higher Secondary School Certificate (HSC)
-                <br />June 2014 to June 2016
-                <br />Chattogram, Bangladesh </p>
+                <br /><span className="date-place">June 2014 - June 2016</span>
+                <br /><span className="date-place">Chattogram, Bangladesh</span> </p>
                 </li>
 
                 <li>
                 <p> <strong>Haji Mohammad Mohsin Govt. High School</strong>
                 <br />Secondary School Certificate
-                <br />January 2009 to December 2013
-                <br />Chattogram, Bangladesh</p>
+                <br /><span className="date-place">January 2009 - December 2013</span>
+                <br /><span className="date-place">Chattogram, Bangladesh</span></p>
                 </li>
             </ul>
             <br />

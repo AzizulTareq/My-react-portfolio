@@ -1,7 +1,8 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
 import { AiTwotoneSetting } from 'react-icons/ai'
-import { GiThink } from 'react-icons/gi'
+import { GiThink, GiSkills } from 'react-icons/gi'
+import { BiLinkExternal } from 'react-icons/bi'
 
 const Skills = () => {
     return (
@@ -9,27 +10,28 @@ const Skills = () => {
             <br />
             <h5><AiTwotoneSetting /> Skills</h5>
             <ul>
-                <h6><strong>Programming Language/ Framework/ Database:</strong></h6>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>C++</li>
-                <li>React, Redux</li>
-                <li>Nodejs/Express</li>
-                <li>Mongodb</li>
-                <li>Bootstrap, React Bootstrap, Reactstrap</li>
+                <li><strong>Programming Languages:</strong> Javascript, C++</li>
+                <li><strong>Frontend:</strong> React, Redux, HTML, CSS, Bootstrap</li>
+                <li><strong>Backend:</strong> Nodejs/Express</li>
+                <li><strong>Database:</strong> MongoDB</li>
+                <li><strong>Others:</strong> Git, Github, Bitbucket, Heroku, Netlify, Postman etc.</li>
                 <br />
-                <h6><strong>Tools & Others:</strong></h6>
-                <li>Git, Github</li>
-                <li>Heroku</li>
-                <li>Netlify</li>
-                <li>Postman etc.</li>
             </ul>
             <h5><GiThink /> Competitive Programming/Problem Solving</h5>
             <ul>
-                <li>Solved about 400 problems from different online judges.</li>
-                <li>Stopstalk username: <a style={{textDecoration: 'none'}} href="https://www.stopstalk.com/user/profile/azizultareq"><span style={{color: '#08B9CD', fontWeight: 'bold'}}>azizultareq</span></a></li>
-                <li>Codeforces handle : <a style={{textDecoration: 'none'}} href="https://codeforces.com/profile/event_loop"><span style={{color: '#08B9CD', fontWeight: 'bold'}}>event_loop</span></a></li>
+                <li>Solved 400+ coding problems from various online judges like codeforces, codechef, hackerrank, LightOJ, CSES etc.</li>
+                <li>Participated in codeforces, codechef, atcoder contests.</li>
+                <li>Stopstalk username: <a style={{textDecoration: 'none'}} href="https://www.stopstalk.com/user/profile/azizultareq" target="__blank"><span style={{color: '#08B9CD', fontWeight: 'bold'}}>azizultareq <BiLinkExternal/></span></a></li>
+                <li>Codeforces handle : <a style={{textDecoration: 'none'}} href="https://codeforces.com/profile/event_loop" target="__blank"><span style={{color: '#08B9CD', fontWeight: 'bold'}}>event_loop <BiLinkExternal/></span></a></li>
+            </ul>
+            <br />
+            <h5><GiSkills /> Personal Skills</h5>
+            <ul>
+                <li>Have leadership skill.</li>
+                <li>Can learn and implement any technology in the shortest possible time.</li>
+                <li>ability to take initiative to solve problems.</li>
+                <li>ability to work under pressure.</li>
+                <br />
             </ul>
             <br />
             <br />
