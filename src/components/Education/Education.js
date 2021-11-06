@@ -10,13 +10,25 @@ const Education = () => {
             <h3><BsFillBriefcaseFill/> Experience</h3>
             <ul>
             <li>
-                <p> <strong>Frontend Developer (Contract)</strong>
-                <br />Prodealz
-                <br /> - Built the frontend of a multi-user and multi-seller e-commerce site. Features I added: add to cart, sellers profile & dashboard, product page (carousel & other details).
+                <p> <strong>Software Engineer</strong>
+                <br />Najj Technologies Ltd.
+                <br /> - Developing and maintaining web applications, managing servers and database, designing and developing APIs, building frontend with React
+                <br /> - Currently developing both frontend and backend of an application where tutors can offer courses/classes and students can enroll in the course. The system will block course fees while enrolling in a course.
+                <br /> - Other features - live class, screen sharing, whiteboard, assign and submit assignments, different functionalities for different users, etc.
+                <br /> - Stack: Nodejs, React, Redux, MongoDB, Bootstrap etc.
                 <br /><span className="date-place">December 2020 - February 2021</span>
                 <br /><span className="date-place">Dhaka, Bangladesh</span></p>
                 </li>
-
+            </ul>
+            <ul>
+            <li>
+                <p> <strong>Frontend Developer (Contract)</strong>
+                <br />Prodealz
+                <br /> - Built the frontend of a multi-vendor e-commerce site. Features I added: add to cart, sellers profile & dashboard, product page (carousel & other details).
+                <br /> - Stack: React, Redux, HTML, CSS etc.
+                <br /><span className="date-place">December 2020 - February 2021</span>
+                <br /><span className="date-place">(Remote) Dhaka, Bangladesh</span></p>
+                </li>
             </ul>
             <h3><FaGraduationCap /> Education</h3>
             <ul>

@@ -11,26 +11,25 @@ const Skills = () => {
             <h5><AiTwotoneSetting /> Skills</h5>
             <ul>
                 <li><strong>Programming Languages:</strong> Javascript, C++</li>
-                <li><strong>Frontend:</strong> React, Redux, HTML, CSS, Bootstrap</li>
-                <li><strong>Backend:</strong> Nodejs/Express</li>
+                <li><strong>Frontend:</strong> React, Redux, HTML, CSS, SCSS, Bootstrap</li>
+                <li><strong>Backend:</strong> Nodejs/Express, WebRtc, Socket.io</li>
                 <li><strong>Database:</strong> MongoDB</li>
                 <li><strong>Others:</strong> Git, Github, Bitbucket, Heroku, Netlify, Postman etc.</li>
                 <br />
             </ul>
             <h5><GiThink /> Competitive Programming/Problem Solving</h5>
             <ul>
-                <li>Solved 400+ coding problems from various online judges like codeforces, codechef, hackerrank, LightOJ, CSES etc.</li>
-                <li>Participated in codeforces, codechef, atcoder contests.</li>
-                <li>Stopstalk username: <a style={{textDecoration: 'none'}} href="https://www.stopstalk.com/user/profile/azizultareq" target="__blank"><span style={{color: '#08B9CD', fontWeight: 'bold'}}>azizultareq <BiLinkExternal/></span></a></li>
-                <li>Codeforces handle : <a style={{textDecoration: 'none'}} href="https://codeforces.com/profile/event_loop" target="__blank"><span style={{color: '#08B9CD', fontWeight: 'bold'}}>event_loop <BiLinkExternal/></span></a></li>
+                <li>Solved 500+ coding problems from various online judges like codeforces, codechef, hackerrank, LightOJ, CSES etc.</li>
+                <li>Participated in 70+ codeforces, codechef, atcoder contests.</li>
+                <li>Skilled in Data Structure, Algorithm, OOP etc.</li>
             </ul>
             <br />
             <h5><GiSkills /> Personal Skills</h5>
             <ul>
                 <li>Have leadership skill.</li>
-                <li>Can learn and implement any technology in the shortest possible time.</li>
-                <li>ability to take initiative to solve problems.</li>
-                <li>ability to work under pressure.</li>
+                <li>Can learn and implement any technology within the shortest possible time.</li>
+                <li>Ability to take initiative to solve problems.</li>
+                <li>Ability to work under pressure.</li>
                 <br />
             </ul>
             <br />
