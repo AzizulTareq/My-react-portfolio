@@ -15,7 +15,7 @@ const Education = () => {
                 <br /> Developing frontend of a SaaS based product using nextjs.
                 <br /> Developing API using nodejs
                 <br /> - Stack: Nodejs, AWS, React, Nextjs, Material UI etc.
-                <br /><span className="date-place">September 2021 - Current</span>
+                <br /><span className="date-place">December 2021 - Current</span>
                 <br /><span className="date-place">Stockholm, Sweden (Remote)</span></p>
                 </li>
             <li>
@@ -25,7 +25,7 @@ const Education = () => {
                 <br /> - Currently developing both frontend and backend of an application where tutors can offer courses/classes and students can enroll in the course. The system will block course fees while enrolling in a course.
                 <br /> - Other features - live class, screen sharing, whiteboard, assign and submit assignments, different functionalities for different users, etc.
                 <br /> - Stack: Nodejs, React, Redux, MongoDB, Bootstrap etc.
-                <br /><span className="date-place">September 2021 - Current</span>
+                <br /><span className="date-place">September 2021 - November 2021</span>
                 <br /><span className="date-place">Dhaka, Bangladesh</span></p>
                 </li>
             </ul>
