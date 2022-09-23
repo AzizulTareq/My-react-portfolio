@@ -19,7 +19,6 @@ const Education = () => {
                 <br /><span className="date-place">Stockholm, Sweden (Remote)</span></p>
                 </li>
             <li>
-            <li>
                 <p> <strong>Software Engineer</strong>
                 <br />Najj Technologies Ltd.
                 <br /> - Managing servers and database, designing and developing APIs, building frontend with React
