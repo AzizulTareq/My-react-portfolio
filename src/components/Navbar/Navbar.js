@@ -10,7 +10,7 @@ const NavBar = () => {
       <Navbar.Brand><span style={{fontWeight: 'bolder', paddingLeft: '10px'}}>TAR<span style={{color: '#AF255D '}}>EQ</span></span></Navbar.Brand>
       </LinkContainer>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav" style={{padding: '3px'}}>
+      <Navbar.Collapse id="basic-navbar-nav" style={{padding: '6px'}}>
         <Nav className="mr-auto">
         <LinkContainer to='/'>
           <Nav.Link>About</Nav.Link>
