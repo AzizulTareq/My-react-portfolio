@@ -12,6 +12,35 @@ const Projects = () => {
       <Container>
           <br />
         <h5 style={{paddingBottom: '10px'}}>Projects <AiTwotoneHeart style={{color: '#D22633'}} /></h5> 
+    {/***************project 0***********/}
+      <CardGroup style={{maxHeight: '100%'}}>
+      <Card>
+        <Row>
+          <Col md={6}>
+        <Card.Body style={{position: 'relative'}}>
+        <Card.Title>Rent Abode</Card.Title>
+          <Card.Text style={{textAlign: 'justify'}}>
+Anyone can post his property like home, apartment, hotel, resort etc. on the platform and any user can have
+booking on those abodes by searching and selecting his preferred abode. Multiple users can’t book an abode
+on same data.
+    <br />
+          <AiTwotoneTag/> Stack: Nextjs, Mongodb, Prisma, TailwindCSS etc.
+          <br />
+          <br />
+          <div>
+          <Button variant="danger" href="https://tareq-rent-abode.vercel.app/" target="__blank">LIVE</Button> &nbsp;
+          <Button variant="dark" href="https://github.com/AzizulTareq/rent-abode" target="__blank">CODE</Button>
+          </div>
+          </Card.Text>
+        </Card.Body>
+        </Col>
+
+        <Col md={6}>
+        <Card.Img style={{padding: '20px', paddingTop: '35px'}} variant="top" src={project5} />
+        </Col>
+        </Row>
+      </Card>
+    </CardGroup>
         {/***************project 1***********/}
       <CardGroup style={{maxHeight: '100%'}}>
       <Card>
