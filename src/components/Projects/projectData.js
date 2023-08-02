@@ -1,5 +1,15 @@
 const projectData = [
     {
+        title: "Rent Abode",
+        description: "Anyone can post his property like home, apartment, hotel, resort etc. on the platform and any user can have
+booking on those abodes by searching and selecting his preferred abode. Multiple users can’t book an abode
+on same data.",
+        stack: "Nextjs, Mongodb, Prisma, NextAuth TailwindCSS etc.",
+        image: "./images/rentabode.PNG",
+        link: "https://tareq-rent-abode.vercel.app/",
+        code: "https://github.com/AzizulTareq/rent-abode"
+    },
+    {
         title: "Tshirt Ecommere Site",
         description: "Features – shopping cart, user rating and comment, product page, quantity select, user profile page, payment system. Admin can add, edit, delete products, delete user, make a user as admin, check orders, and mark orders as delivered.",
         stack: "React, Nodejs, Mongodb, React Bootstrap, HTML, CSS etc.",
