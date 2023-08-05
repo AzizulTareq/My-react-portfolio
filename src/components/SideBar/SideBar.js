@@ -11,21 +11,6 @@ import resume from './tareqresumefile.pdf'
 
 const SideBar = () => {
 
-  const [viewers, setViewers] = useState(0)
-
-    useEffect(() => {
-      const getViewers = async () => {
-      try {
-        const counter = await axios.get('https://api.countapi.xyz/update/azizultareq.netlify.com/b8f05964-0e9b-46a8-93b0-b6790140646a/?amount=1');
-        setViewers(counter.data.value)
-      } catch(err){
-        console.log(err)
-      }
-    }
-    getViewers();
-    
-  }, []);
-
   return (
   <Container id="sidebar" style={{backgroundColor: 'rgb(240, 238, 238)', height: '650px'}}>
     <section id="intro">
@@ -52,7 +37,6 @@ const SideBar = () => {
       <a className="all_links"  href="https://www.flickr.com/photos/193326444@N02/" target="__blank"><ImFlickr /> Flickr</a>
       </p>
     </section>
-    <p><span className="viewer-text">Portfolio Views</span> <span className="viewers">{viewers}</span></p>
     <br />
   </Container>
 );
