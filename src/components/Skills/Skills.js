@@ -12,7 +12,7 @@ const Skills = () => {
             <ul>
                 <li><strong>Programming Languages:</strong> Javascript, Typescript, C++</li>
                 <li><strong>Frontend:</strong> Nextjs, React, Redux, Vuejs HTML, CSS, SCSS, TailwindCSS, Material Ui</li>
-                <li><strong>Backend:</strong> Nodejs/Express</li>
+                <li><strong>Backend:</strong> Nodejs, Express, LoopBack</li>
                 <li><strong>Database:</strong> MongoDB, PostgreSQL</li>
                 <li><strong>Others:</strong> Docker, Git, Github, Bitbucket, Heroku, Netlify, Postman etc.</li>
                 <br />
