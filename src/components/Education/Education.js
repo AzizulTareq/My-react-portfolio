@@ -9,6 +9,15 @@ const Education = () => {
         <Container className='my-3 px-6' style={{backgroundColor: 'white'}}>
             <h3><BsFillBriefcaseFill/> Experience</h3>
             <ul>
+    <li>
+                <p> <strong>Software Engineer</strong>
+                <br />Technonext - US Bangla Group 
+                <br /> - Working on a full stack OTA (Online Travel Agency) project using latest technologies.
+                <br /> - Fixed existing bugs and warnings and made the build successful.
+                <br /> - Working on building a multi-vendor e-commerce application.
+                   <br /><span className="date-place">October 2023 - Current</span>
+                <br /><span className="date-place">Dhaka, Bangladesh (On-site)</span></p>
+                </li>
             <li>
                 <p> <strong>Full Stack Developer</strong>
                 <br />Eucaps
@@ -16,7 +25,7 @@ const Education = () => {
                 <br /> - Worked from start to finish of a SaaS product and worked both on frontend and backend of the application.
                 <br /> - Responsible for writing API, writing complex database query, building interactive user interface etc.
                 <br /> - Responsible for doing frontend code review and provide feedback to team mates.
-                <br /><span className="date-place">December 2021 - Current</span>
+                <br /><span className="date-place">December 2021 - September 2023</span>
                 <br /><span className="date-place">Stockholm, Sweden (Remote)</span></p>
                 </li>
             <li>
