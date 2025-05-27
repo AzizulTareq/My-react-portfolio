@@ -18,7 +18,6 @@ const Education = () => {
                    <br /><span className="date-place">September 2024 - Current</span>
                 <br /><span className="date-place">Redwood City, California, USA (Remote)</span></p>
                 </li>
-            <li>
     <li>
                 <p> <strong>Software Engineer</strong>
                 <br />Technonext - US Bangla Group 
