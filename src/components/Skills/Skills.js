@@ -10,11 +10,11 @@ const Skills = () => {
             <br />
             <h5><AiTwotoneSetting /> Skills</h5>
             <ul>
-                <li><strong>Programming Languages:</strong> Javascript, Typescript, C++</li>
+                <li><strong>Programming Languages:</strong> Javascript, Typescript, Golang</li>
                 <li><strong>Frontend:</strong> Nextjs, React, Redux, Vuejs HTML, CSS, SCSS, TailwindCSS, Material Ui</li>
-                <li><strong>Backend:</strong> Nodejs, Express</li>
+                <li><strong>Backend:</strong> Nodejs, Express, Nestjs, Microservices, Parse-server</li>
                 <li><strong>Database:</strong> MongoDB, PostgreSQL</li>
-                <li><strong>Others:</strong> Docker, Git, Github, Bitbucket, Heroku, Netlify, Postman etc.</li>
+                <li><strong>Cloud & Others:</strong> AWS (EC2, S3, Elastic Beanstalk, IAM, etc.), Docker, Git, CI/CD, Nginx, Heroku, Netlify, Vercel, Jira, Postman, etc.</li>
                 <br />
             </ul>
             <h5><GiThink /> Competitive Programming/Problem Solving</h5>
