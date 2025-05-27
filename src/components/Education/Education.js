@@ -9,6 +9,16 @@ const Education = () => {
         <Container className='my-3 px-6' style={{backgroundColor: 'white'}}>
             <h3><BsFillBriefcaseFill/> Experience</h3>
             <ul>
+        <li>
+                <p> <strong>Software Engineer</strong>
+                <br />Insidemaps Inc. 
+                <br /> - Wrote queries in Parse Server based on the requirements to create REST APIs in a Node.js/Express application.
+                <br /> - Wrote and executed scripts to update, migrate, and correct database records based on requirements.
+                <br /> - Created documentation for API endpoints and backend processes for easier team onboarding and knowledge sharing.
+                   <br /><span className="date-place">September 2024 - Current</span>
+                <br /><span className="date-place">Redwood City, California, USA (Remote)</span></p>
+                </li>
+            <li>
     <li>
                 <p> <strong>Software Engineer</strong>
                 <br />Technonext - US Bangla Group 
@@ -34,7 +44,7 @@ const Education = () => {
                 <br /> - Managing servers and database, designing and developing APIs, building frontend with React
                 <br /> - Currently developing both frontend and backend of an application where tutors can offer courses/classes and students can enroll in the course. The system will block course fees while enrolling in a course.
                 <br /> - Other features - live class, screen sharing, whiteboard, assign and submit assignments, different functionalities for different users, etc.
-                <br /><span className="date-place">September 2021 - November 2021</span>
+                <br /><span className="date-place">June 2021 - November 2021</span>
                 <br /><span className="date-place">Dhaka, Bangladesh</span></p>
                 </li>
             </ul>
